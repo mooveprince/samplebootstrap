@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 30px 0px 80px;
+}
+
+.header h1 {
+  font-size: 22px;
+}
+
+.nav li a {
+  color: #333;
+  margin: 0px;
+  border: 0px;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+  margin-bottom: 150px;
+}
+
+.jumbotron h2 span {
+  color: #fff00d;
+}
+
+.cards {
+  background-color: #f39c12;
+  padding: 80px 0;
+  color: #fff;
+}
+
+.cards h2 {
+  margin: 20px 0 60px;
+  text-align: center;
+}
+
+.cards img {
+  margin-bottom:25px;
+}
+
+.event img {
+  display: block;
+  margin: 0px auto;
+}
+
+.event p {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 20px;
+}
+
+.jumbotron.eventholder {
+  margin-bottom: 0px;
+}
+
+.projects {
+  border-top: 1px solid #e6e7e8;
+  background-color: #ecf0f1;
+}
+
+.projects h4 {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.projectList {
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.project {
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid transparent;
+    background-clip: padding-box;
+    color: #4a4a4c;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.project.even {
+  background-color: #bdc3c7;
+  color:#fff;
+}
+
+.addition {
+  margin-top:20px;
+}
+
+.footer {
+  padding: 60px 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 20px;
+}
+
+.footer p {
+  font-size:12px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .col-md-4.eventList{
+      margin: 0 auto 0;
+      text-align: center;
+      width: 100%;
+  }
+
+  .cards img {
+    width: 60%;
+  }
+
+  .project {
+    height: 100%;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .projectList .row {
+    margin: 0px;
+  }
+
+  .icon {
+    width:100%
+  }
+
+}
