@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hack  Track</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-route.min.js"></script>
+  </head>
+
+    <body>
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3"><h1>Hack Track</h1></div>
+            <div class="col-md-9">
+              <ul class="nav nav-tabs pull-right">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron eventholder">
+        <div class="container">
+          <div class="row">
+            <div class="event">
+              <img src="images/memphis.png" />
+              <p>Sep 11 - 13, 2015</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "projects">
+        <div class="container">
+          <div class="projectList">
+          <div class="row">
+              <div class="col-md-7">
+                <h3>Hack Detail</h3>
+                <form role="form">
+                  <div class="form-group">
+                    <label for="name"> Project Name </label>
+                    <input type="text" class="form-control" id="name" maxlength="40"></input>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="desc"> Description </label>
+                    <textarea class="form-control" rows="2" id="desc" maxlength="80"></textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="techs"> Technologies </label>
+                    <select multiple class="form-control">
+                      <option>Python</option>
+                      <option>Java</option>
+                      <option>Bootstrap</option>
+                      <option>JS Frameworks</option>
+                      <option>Others</option>
+                      <option>Ruby</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="status"> Status </label>
+                    <select class="form-control">
+                      <option>New</option>
+                      <option>In Progress</option>
+                      <option>Need Help</option>
+                      <option>Dropped</option>
+                      <option>Completed</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="link"> Final Link </label>
+                    <input type="text" class="form-control" id="link" maxlength="50"></input>
+                  </div>
+
+                  <button type="submit" class="btn">Add</button>
+
+                </form>
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="align-left col-md-4">
+            <h3>HackTrack</h3>
+            <p>000 office yet to open</p>
+            <p>Earth, Milkyway</p>
+            <p>Planet #0003</p>
+          </div>
+        </div>
+      </div>
+
+    </body>
+
+  </html>

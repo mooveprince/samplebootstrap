@@ -71,8 +71,8 @@ html, body {
   background-color: #ecf0f1;
 }
 
-.projects h4 {
-  margin: 20px 0px;
+.projects h2 {
+  margin: 40px 0px;
   text-align: center;
 }
 
@@ -99,8 +99,20 @@ html, body {
   color:#fff;
 }
 
+.projects h3 {
+  margin: 20px 0 20px 0;
+}
+
 .addition {
   margin-top:20px;
+}
+
+.projects .btn {
+  margin-top: 30px;
+  color: #fff;
+  background: #3498db;
+  border: 0px;
+  border-radius: 0px;
 }
 
 .footer {
